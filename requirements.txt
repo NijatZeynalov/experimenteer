@@ -3,8 +3,7 @@ nbformat==5.9.2
 numpy==1.23.5
 pandas==1.5.3
 pandas_profiling==3.6.6
-Pillow==9.4.0
-Pillow==10.0.1
+Pillow
 pycaret==3.1.0
 scikit_learn==1.2.2
 streamlit==1.26.0
