@@ -1,5 +1,6 @@
 feature_engine==1.6.0
 nbformat==5.9.2
+matplotlib
 numpy==1.23.5
 pandas==1.5.3
 pandas_profiling==3.6.6
