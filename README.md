@@ -70,6 +70,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Live demo:
+
+You can test experimenteer via [this link](http://44.204.1.251:8501/).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
@@ -83,3 +87,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 If you have any questions or need assistance, feel free to contact us at [nijatzeynalov98298@gmail.com](mailto:nijatzeynalov98298@gmail.com).
 
 Happy experimenting!
+
+
