@@ -5,7 +5,7 @@
 
 
 
-Automate your classic machine learning experiments with Streamlit-based experimenteer. This tool simplifies the process of dataset preparation, problem type selection (regression or classification), and feature engineering method customization. With just a few clicks, you can create and evaluate machine learning models, conduct multiple experiments, and analyze your results.
+Automate your classic machine learning experiments with Streamlit-based application - experimenteer. This tool simplifies the process of dataset preparation, problem type selection (regression or classification), and feature engineering method customization. With just a few clicks, you can create and evaluate machine learning models, conduct multiple experiments, and analyze your results.
 
 ## Getting Started
 
