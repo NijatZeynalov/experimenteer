@@ -17,7 +17,7 @@ To get started with the AutoML Streamlit application, follow these steps:
    pip install -r requirements.txt
    ```
 
-2. **Launch the Application**: Run the Streamlit application by executing the following command:
+2. **Launch the Application**: If you are accessing the application on AWS EC2, simply open the provided link. If running locally, use the following command::
 
    ```bash
    streamlit run app.py
@@ -69,6 +69,7 @@ pip install -r requirements.txt
 # Launch the Streamlit application
 streamlit run app.py
 ```
+The application is hosted on AWS EC2, and the runtime for one experiment typically ranges from 0.5 to 3 seconds, depending on your internet connection and the current capacity of the app.
 
 ## Live demo:
 
