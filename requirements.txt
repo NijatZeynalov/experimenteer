@@ -3,7 +3,6 @@ nbformat
 matplotlib
 numpy
 pandas
-pandas_profiling
 Pillow
 pycaret==3.0.0
 scikit_learn
