@@ -72,6 +72,9 @@ streamlit run app.py
 
 ## Live demo:
 
+![ezgif com-video-to-gif (1)](https://github.com/NijatZeynalov/experimenteer/assets/31247506/f1c3745d-9499-4c11-85ff-aadf8de80592)
+
+
 You can test experimenteer via [this link](http://44.204.1.251:8501/).
 
 ## License
