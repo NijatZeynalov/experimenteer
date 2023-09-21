@@ -71,11 +71,12 @@ if eda_clicked:
 
     dataset_cleaner = DatasetCleaner(df)
     df = dataset_cleaner.clean()
-    st.success('Initial cleaning steps done.')
+    st.success("""At present, the implementation of automatic Exploratory Data Analysis (EDA) is hindered due to certain library-related challenges. However, we have undertaken preliminary data preparation steps, which include:
 
-    pr = ProfileReport(df, explorative=True)
-    st_profile_report(pr)
+        Duplicated Row Removal: We have successfully eliminated duplicated rows from the dataset, ensuring data integrity and accuracy.
 
+        Elimination of Features with Unique Values: Features with singular or unique values have been removed, streamlining the dataset and enhancing its suitability for further analysis.""")
+    
 
 st.markdown("# 2. Feature Engineering ⚙️")
 
