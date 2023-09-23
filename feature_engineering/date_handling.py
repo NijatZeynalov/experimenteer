@@ -1,14 +1,11 @@
 from feature_engine.datetime import DatetimeFeatures
 
 
-
 class DateTimeHandler:
-
-    def __init__(self, variables = None):
+    def __init__(self, variables=None):
         self.variables = variables
 
-
-    def method_transform(self, X_train, X_test, y_train, y_test):
+    def fit_transform(self, X_train, X_test, y_train, y_test):
         self.X_train = X_train
         self.X_test = X_test
         self.y_train = y_train
@@ -21,7 +18,7 @@ class DateTimeHandler:
             )
             X_train_d = dtfs.fit_transform(self.X_train)
             X_test_d = dtfs.transform(self.X_test)
-            return X_train_d, X_test_d,self.y_train, self.y_test
+            return (X_train_d, X_test_d, self.y_train, self.y_test)
 
-        except:
-            return self.X_train, self.X_test,self.y_train, self.y_test
+        except Exception:
+            return (self.X_train, self.X_test, self.y_train, self.y_test)
