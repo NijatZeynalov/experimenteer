@@ -9,19 +9,31 @@ Automate your classic machine learning experiments with Streamlit-based applicat
 
 ## Getting Started
 
-To get started with the AutoML Streamlit application, follow these steps:
+To get started with the AutoML Streamlit application you can either build the app manually, or with Docker. Please follow these steps for each:
 
-1. **Installation**: Make sure you have Python installed on your system. Install the required packages by running:
+1. **Build the APP**
+ 
+     * a) **Docker Installation**: Make sure you have Docker installed on your system.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+        * **Build and Run Docker Image**: Run the following command to build the Docker image and run app inside the container:
 
-2. **Launch the Application**: If you are accessing the application on AWS EC2, simply open the provided link. If running locally, use the following command::
+          ```bash
+          bash docker_build_and_run.sh
+          ```
 
-   ```bash
-   streamlit run app.py
-   ```
+      * b). **Manual Installation**: Make sure you have Python installed on your system.
+
+          - **Install the required packages**:
+
+            ```bash
+            pip install -r requirements.txt
+            ```
+
+          - **Launch the Application**: If you are accessing the application on AWS EC2, simply open the provided link. If running locally, use the following command::
+
+            ```bash
+            streamlit run app.py
+            ```
 
 3. **Upload Your Dataset**: Use the application's interface to upload your dataset.
 
@@ -61,7 +73,12 @@ To get started with the AutoML Streamlit application, follow these steps:
 7. **Results and Logs**: View the results of each experiment, including performance metrics and model evaluations, directly in the Streamlit app. You can also download a Jupyter notebook containing the entire experiment and logs for reference.
 
 ## Example Usage
-
+With Docker:
+```bash
+# Build and run Docker image
+bash docker_build_and_run.sh
+```
+With Manual Installation:
 ```bash
 # Install required packages
 pip install -r requirements.txt
