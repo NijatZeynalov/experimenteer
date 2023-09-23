@@ -1,4 +1,6 @@
+black==23.9.1
 feature_engine
+flake8==6.1.0
 nbformat
 matplotlib
 numpy
