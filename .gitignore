@@ -1,1 +1,11 @@
 .idea/*
+# ignore virtual environment files
+venv/*
+_venv/*
+.venv/*
+env/*
+_env/*
+# ignore python cache files
+__pycache__
+# ignore log files
+*.log
