@@ -182,7 +182,7 @@ if submitted:
             from pycaret.regression import setup, compare_models, pull
 
             exp = setup(data=train_data, test_data=test_data, target=target, session_id=123)
-        st.session_state.best = compare_models(include=["lr"])
+        st.session_state.best = compare_models()
         st.session_state.df = pull()
 
         if data_source == "Upload a CSV File":
